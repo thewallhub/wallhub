@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WallHub</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER (ALL IN ONE) -->
+  <div class="header">
+
+  <!-- TOP ROW -->
+  <div class="logo-box">
+  <img src="assets/logo.png" class="logo">
+  <h1>WallHub</h1>
+ </div>
+
+  <!-- SEARCH -->
+  <div class="top-bar">
+
+  <!-- LEFT FILTER -->
+  <select id="sortSelect">
+  <option value="new">✨ New</option>
+  <option value="old">🕰 Old</option>
+  </select>
+
+  <!-- SEARCH -->
+  <input type="text" id="search" placeholder="Search wallpapers...">
+
+  <!-- RIGHT DEVICE -->
+  <select id="deviceSelect">
+    <option value="mobile">📱 Mobile</option>
+    <option value="pc">💻 Laptop</option>
+  </select>
+
+</div>
+
+    <!-- CATEGORIES -->
+    <div class="categories">
+      <button onclick="filterCategory('all', event)">All</button>
+      <button onclick="filterCategory('nature', event)">Nature</button>
+      <button onclick="filterCategory('city', event)">City</button>
+      <button onclick="filterCategory('dark', event)">Dark</button>
+      <button onclick="filterCategory('anime', event)">Anime</button>
+      <button onclick="filterCategory('cars', event)">Cars</button>
+      <button onclick="filterCategory('space', event)">Space</button>
+      <button onclick="filterCategory('minimal', event)">Minimal</button>
+      <button onclick="filterCategory('gaming', event)">Gaming</button>
+      <button onclick="filterCategory('horror', event)">Horror</button>
+      <button onclick="filterCategory('abstract', event)">Abstract</button>
+      <button onclick="filterCategory('tech', event)">Tech</button>
+      <button onclick="filterCategory('animals', event)">Animals</button>
+      <button onclick="filterCategory('sports', event)">Sports</button>
+      <button onclick="filterCategory('quotes', event)">Quotes</button>
+      <button onclick="filterCategory('superheroes', event)">Superheroes</button>
+      <button onclick="filterCategory('bikes', event)">Bikes</button>
+      <button onclick="filterCategory('aesthetic', event)">Aesthetic</button>
+    </div>
+
+  </div>
+
+  <!-- GRID -->
+  <div id="wallpapers" class="grid"></div>
+
+  <!-- LOAD MORE -->
+  <button id="loadMoreBtn">Load More</button>
+
+  <!-- POPUP -->
+     <div id="popup" class="popup">
+
+  <span onclick="closePopup()" class="closeBtn">❌</span>
+
+  <div class="popup-img-box">
+    <img id="popupImg">
+    <span id="popupHeart">♡</span>
+  </div>
+
+  <button id="downloadBtn">Download</button>
+
+</div>
+
+  <!-- MENU -->
+  <div id="menuBtn">☰</div>
+
+  <div id="sidePanel">
+
+  <a href="pages/about.html">About</a>
+  <a href="pages/contact.html">Contact</a>
+  <a href="pages/privacy.html">Privacy Policy</a>
+  <a href="pages/terms.html">Terms & Conditions</a>
+
+  <div class="social">
+    <a href="https://www.instagram.com/realwallhub/" target="_blank"> Instagram</a>
+  </div>
+
+</div>
+ 
+ <script src="data/wallpapers.js"></script>
+<script src="script.js"></script>
+<script src="script.js"></script>
+ 
+</body>
+</html>
