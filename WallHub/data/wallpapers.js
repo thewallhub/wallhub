@@ -8,8 +8,37 @@
    
     // ===== anime =====
    
-    {img: "https://images.unsplash.com/photo-1668293750324-bd77c1f08ca9?w=400", category: "anime", tags: ["anime","mobile"]},
-    {img: "https://images.unsplash.com/photo-1742852479848-f2baac1cb05a?w=400", category: "anime", tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668090/38cf5c3f-bba6-485d-ad0b-1d2786204b03_qdxzlm.png?w=400", category: ["anime", "dark", "aesthetic"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668097/1731a68c-677a-483f-8adc-64bcb58cd733_ihd9ap.png?w=400", category: ["anime", "superhero"], tags: ["anime","mobile","magic"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664367/50826e0c-e971-4840-b527-fb65bffe302b_jg48th.png?W=400", category: ["anime"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664358/90437d14-9a4a-4db4-b7c8-13d6ef074b8b_pebzfy.png?W=400", category: ["anime"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664349/53d4d53b-b005-4a7d-9eb0-4adbe362bf0d_o2j0e8.png?W=400", category: ["anime"], tags: ["anime","mobile","hot","girlanime"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664343/3005fb74-8d96-450e-baaf-dc0a2a34d0b1_u4icur.png?W=400", category: ["anime"], tags: ["anime","mobile","coolboy"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664337/110ece76-a529-4c18-9315-6c77129d23a5_xhryhx.png?W=400", category: ["anime"], tags: ["anime","mobile","girlanime","cute"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664328/28d4fc2e-6f84-4b51-bd11-1ff634c7058b_py3lwc.png?W=400", category: ["anime"], tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664318/908b4e28-46a3-49ff-ada2-ede320a8ed05_l0c0ed.png?W=400", category: ["anime"], tags: ["anime","mobile","alone","sad"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664315/d88e3e08-1357-453b-a997-5ebeb502d740_lj2juj.png?W=400", category: ["anime"], tags: ["anime","mobile","power","cool","hero"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664311/68e337c1-a400-4d94-a799-42a82e478563_uqjskc.png?W=400", category: ["anime"], tags: ["anime","mobile","girl","cute"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664307/6fe43b52-3083-4242-a1ae-ded4fb3dba16_gywm76.png?W=400", category: ["anime"], tags: ["anime","mobile","city","alone"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664304/dd4105ff-bdad-469a-9f06-dd1e211723f8_zp3jbx.png?W=400", category: ["anime"], tags: ["anime","mobile","girl","cute"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664299/5f83d130-7efb-47b9-b90e-75cf7880d0a0_ozmntw.png?W=400", category: ["anime"], tags: ["anime","mobile","action","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776664286/6da6cd3b-5b87-46be-bcbf-c08701d3d369_kh5xu8.png?W=400", category: ["anime"], tags: ["anime","mobile","samurai"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776666476/8d5d04f4-59da-4cbc-a793-0bfcee09d092_w9js5p.png?W=400", category: ["anime", "dark", "horror"], tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776666431/ab6fcc2d-ffe5-4626-8a6f-2821487d6e77_qbirtq.png?W=400", category: ["anime"], tags: ["anime","mobile","samurai"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776666698/90066622-ab7b-4087-b944-9c0250e0985c_eyqrqy.png?W=400", category: ["anime"], tags: ["anime","mobile","sad","alone"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776666832/3cbc0dd0-5ce6-4015-942d-bfc1f458de15_loirt2.png?W=400", category: ["anime"], tags: ["anime","mobile","couple","romantic","cute"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776667000/eff561fe-6265-4eb1-a88f-7d4e83759bcd_dhy04v.png?W=400", category: ["anime"], tags: ["anime","mobile","cute","girl"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776667094/0d5fb8e5-f62a-4975-b105-892c856b0344_qql4oh.png?W=400", category: ["anime"], tags: ["anime","mobile","sad"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776667200/97cc875c-3d0f-472d-b9c8-d9409bd58a81_wkhpl0.png?W=400", category: ["anime"], tags: ["anime","mobile","samurai"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776667398/f4db6ab9-9a4c-4068-a9f2-c06750f0670e_gpxnps.png?W=400", category: ["anime"], tags: ["anime","mobile","cyberpunk"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776667636/0eeb5752-53ff-4fd5-9af8-8c934ad95728_purdgf.png?W=400", category: ["anime"], tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668285/f2ab8183-29cb-4da0-aa2e-c4ff56c1af75_rfcjcs.png?w=400", category: ["anime"], tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668553/cd65def0-4bd8-4daf-a53e-5e41eff6dffc_wcchkl.png?w=400", category: ["anime"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668649/90fe2484-c731-4ccc-bd13-6688fbffcb1a_zbmh31.png?w=400", category: ["anime"], tags: ["anime","mobile","girl","sad","alone"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668728/13cd5fca-8cf5-4970-9bfd-8a8970a32d24_fptaur.png?w=400", category: ["anime","horror"], tags: ["anime","mobile","demon"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776669123/f70c636e-d205-4f5d-bd74-6a505884c05d_huqops.png?w=400", category: ["anime", "bike", "car", "city"], tags: ["anime","mobile","cool","handsome"]},
+
+
     // ===== nature =====
     
     {img: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=400", category: "nature", tags: ["nature","mobile"]},
