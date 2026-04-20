@@ -37,6 +37,15 @@
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668649/90fe2484-c731-4ccc-bd13-6688fbffcb1a_zbmh31.png?w=400", category: ["anime"], tags: ["anime","mobile","girl","sad","alone"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668728/13cd5fca-8cf5-4970-9bfd-8a8970a32d24_fptaur.png?w=400", category: ["anime","horror"], tags: ["anime","mobile","demon"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776669123/f70c636e-d205-4f5d-bd74-6a505884c05d_huqops.png?w=400", category: ["anime", "bike", "car", "city"], tags: ["anime","mobile","cool","handsome"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693622/copy_of_6e758f5b-e1bd-4977-970e-515c80fb19e9_ydjoey_e09ec0.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","dark"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693480/copy_of_684f83dd-25d9-445f-8834-c7f2a3d60b48_vobzvo_d2a6bb.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","girl"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693413/copy_of_9652b3d4-c1a9-4a1c-8b5b-05aa3fb335b9_iuunip_617b2f.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","art"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693307/copy_of_1a5a2e3c-25ca-44eb-b3f2-b2249e28f994_nhqzcu_819b0b.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","nature","girl"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693235/copy_of_e9b9f3a8-a988-4d02-bb7d-f9305bed47ea_a7zzcf_189145.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693127/copy_of_0097597d-f600-4c6a-b47f-d9ac33ed0e58_xn9sem_1e038d.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","girl"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776692711/copy_of_11d32f60-dc57-4a08-8f90-bdb588cee559_yf5nym_d40c28.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776691903/copy_of_5acd5a64-4854-4c4c-8625-35bdc9e92b6f_ttqeii_4179c1.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cute","girl"]},
+
 
 
     // ===== nature =====
