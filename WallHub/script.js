@@ -95,11 +95,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
   currentIndex += loadCount;
 
-  if (currentIndex >= currentData.length) {
-    document.getElementById("loadMoreBtn").innerText = "No More Wallpapers";
-  } else {
-    document.getElementById("loadMoreBtn").style.display = "block";
-  }
+  let btn = document.getElementById("loadMoreBtn");
+
+if (currentIndex >= currentData.length) {
+  btn.style.display = "none";   // 👈 hide button
+} else {
+  btn.style.display = "block";  // 👈 show button
+}
 }
 
   // ===== GET DATA =====
@@ -118,24 +120,38 @@ function applyFilters() {
   let value = searchInput.value.toLowerCase();
   let sort = sortSelect.value;
 
-  let data = getData();
+let data = getData();
 
-  let filtered = data.filter(w => {
-    let matchCategory =
-      currentCategory === "all" || w.category === currentCategory;
+let filtered = data.filter(w => {
+  let matchCategory =
+    currentCategory === "all" || w.category.includes(currentCategory);
 
-    let matchSearch =
-      value === "" ||
-      w.category.includes(value) ||
-      w.tags.some(tag => tag.includes(value));
+  let matchSearch =
+    value === "" ||
+    w.tags.some(tag => tag.includes(value));
 
-    return matchCategory && matchSearch;
-  });
+  return matchCategory && matchSearch;
+});
 
-  if (sort === "new") {
-    filtered = [...filtered].reverse();
+// 👇 FINAL SORT LOGIC
+if (sort === "old") {
+  filtered = [...filtered].reverse();
+} else if (sort === "new") {
+  // same order
+} else {
+  filtered = shuffleArray(filtered); // 👈 DEFAULT RANDOM
+  
+   function shuffleArray(arr) {
+  let shuffled = [...arr];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
+  return shuffled;
+}
+}
 
+  
   showWallpapers(filtered, true);
 }
 
