@@ -64,8 +64,18 @@
 
     // ===== nature =====
     
-    {img: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=400", category: "nature", tags: ["nature","mobile"]},
-    {img: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=400", category: "nature", tags: ["nature","mobile"]},
+    
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776703191/copy_of_copy_of_e670e5f1-4e4b-4cfb-a6c8-f5b00631eb9f_cotidp_b73e6f_d50c2c.jpg?W=400", category: ["nature"], tags: ["dark","mobile","ocean","beach"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776703137/copy_of_copy_of_2fc04226-620d-4c2d-9fea-d65987ccb86b_zzrkhg_e7e884_b4842c.jpg?W=400", category: ["nature","space"], tags: ["dark","mobile","stars","night"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776703015/copy_of_9c8138f8-1de6-431e-b182-2699bdabde96_jaavkv_70b78e.jpg?W=400", category: ["nature"], tags: ["dark","mobile","waterfall","greenry"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702975/copy_of_d6c9e259-d460-4ba5-ae7d-9eee3f26ed56_iwxlri_f60be0.jpg?W=400", category: ["nature"], tags: ["dark","mobile","farm","warm"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702942/copy_of_c7f98128-0546-492c-9d3c-04b53d53bc76_vpj82j_1f858a.jpg?W=400", category: ["nature"], tags: ["dark","mobile","volvano","distroy"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702805/copy_of_9ee61b1d-d343-4898-a2e5-1441c1ec84bf_v0brn3_09eb6a.jpg?W=400", category: ["nature"], tags: ["dark","mobile","ice","cold"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702758/copy_of_3de9943a-1a85-4f61-baed-e9313707b3c6_hbyn0j_702f72.jpg?W=400", category: ["nature"], tags: ["dark","mobile","hot","desert"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702714/copy_of_7e5656d0-3df1-46b7-9abf-8877e7c35391_msugsa_005f22.jpg?W=400", category: ["nature"], tags: ["dark","mobile","forest","trees"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702675/copy_of_8e4e2381-768b-4396-bf54-7644f64de831_dzrsxg_40a264.jpg?W=400", category: ["nature"], tags: ["dark","mobile","water","ocean"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776702582/copy_of_17c766f2-8edd-4685-ad8b-3e4502285bca_lrcrd0_d2faf3.jpg?W=400", category: ["nature"], tags: ["dark","mobile","mountain","sunrise"]},
+ 
     // ===== city =====
    
     {img: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=400", category: "city", tags: ["city","mobile"]},
