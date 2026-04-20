@@ -3,8 +3,22 @@
  
     // ===== dark =====
 
-    {img: "https://images.unsplash.com/photo-1551692554-d83872f34d55?w=400", category: "dark", tags: ["dark","mobile"]},
-    {img: "https://images.unsplash.com/photo-1650998360137-3a39df81d563?w=400", category: "dark", tags: ["dark","mobile"]},
+    
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689163/52b5892e-98af-4162-b706-521116e113e8_lo2qp8.png?W=400", category: ["dark"], tags: ["dark","mobile","cool","samurai"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689129/3dbc309d-b501-48e9-8471-9d1b4f22d80a_s71zc4.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","black","devil"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689122/dea78905-06fd-4cd3-bdcc-f695b28b59d7_nepukx.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","monster","devil"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689084/e66282ee-9f86-4cf7-af13-3c3b279633a3_hu90es.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","cool","dark"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689080/7c82841d-bc76-4681-9713-3398f0142fc8_ly6vru.png?W=400", category: ["dark","city"], tags: ["dark","mobile","fire","road"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689064/7e925be2-de92-4175-a413-586cc4dc6adf_x0utmg.png?W=400", category: ["dark"], tags: ["dark","mobile","cool","samurai"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689059/7e318c78-99eb-437a-bdd2-8491a66b2d6a_yrveax.png?W=400", category: ["dark","horror","animal"], tags: ["dark","mobile","wolf","night"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689045/936ed724-d2f3-4afa-9f4a-c8295e29c7f6_uga5ht.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","angel","devil"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689005/f7724698-801f-44c1-9521-2fdeb40aee9a_ntmsx0.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","sea","monster"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689001/38a2aa11-86cf-4a2d-9f1d-84611bc719fa_lz9uul.png?W=400", category: ["dark","car","city"], tags: ["dark","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688992/83d64277-7e18-467d-9f45-cf1347aaa79e_qygjzx.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","monster","devil"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688983/6191726f-f490-4549-87dd-a9614181d3ba_swkc2d.png?W=400", category: ["dark","tech"], tags: ["dark","mobile","hacker"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688978/54a92efe-a02b-45c9-a23a-c4f8ceb32619_l26zwb.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","night","dragon"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688937/a6474432-5e0a-4d1c-8581-cecd5be59cca_twjcka.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","skull","monster"]},
+
    
     // ===== anime =====
    
