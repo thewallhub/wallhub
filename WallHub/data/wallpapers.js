@@ -86,8 +86,18 @@
     {img: "https://images.unsplash.com/photo-1631896928987-fce0d41e9b32?w=400", category: "gaming", tags: ["gaming","mobile"]},
     // ===== space =====
     
-    {img: "https://images.unsplash.com/photo-1505506874110-6a7a69069a08?w=400", category: "space", tags: ["space","mobile"]},
-    {img: "https://images.unsplash.com/photo-1537420327992-d6e192287183?w=400", category: "space", tags: ["space","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766670/copy_of_unnamed_rbqzuz_39ac51.png?W=400", category: ["space"], tags: ["space","mobile","blackhole","universe"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766630/copy_of_unnamed_aa6e78_b2aeab.png?W=400", category: ["space"], tags: ["space","mobile","earth","asteroid"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766588/copy_of_unnamed_bvhdcs_8cb4f4.jpg?W=400", category: ["space"], tags: ["space","mobile","light","nebula"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766546/copy_of_unnamed_yi1xhs_c455d0.jpg?W=400", category: ["space"], tags: ["space","mobile","earth","astronaut"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766479/copy_of_unnamed_tvsk6e_1918cf.jpg?W=400", category: ["space"], tags: ["space","mobile","cool","aircraft","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766435/copy_of_unnamed_qnvnyg_9b4ea4.jpg?W=400", category: ["space"], tags: ["space","mobile","aircraft","asteroid","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766371/copy_of_unnamed_fy2hlx_bc27ca.jpg?W=400", category: ["space"], tags: ["space","mobile","stones","planet"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766315/copy_of_unnamed_kee51x_732d76.jpg?W=400", category: ["space"], tags: ["space","mobile","saturn","planet"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766252/copy_of_unnamed_ycr4up_0df428.jpg?W=400", category: ["space"], tags: ["space","mobile","galaxy","stars"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766209/copy_of_unnamed_c5akjf_8ca32f.jpg?W=400", category: ["space"], tags: ["space","mobile","alien","cool"]},
+
+
     // ===== minimal =====
    
     {img: "https://images.unsplash.com/photo-1487260211189-670c54da558d?w=400", category: "minimal", tags: ["minimal","mobile"]},
