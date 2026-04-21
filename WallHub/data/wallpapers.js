@@ -100,8 +100,22 @@
 
     // ===== minimal =====
    
-    {img: "https://images.unsplash.com/photo-1487260211189-670c54da558d?w=400", category: "minimal", tags: ["minimal","mobile"]},
-    {img: "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=400", category: "minimal", tags: ["minimal","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773600/copy_of_unnamed_u1ojgn_036113.png?W=400", category: ["minimal","abstract","aesthetic"], tags: ["minimal","mobile","blue","waves"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773569/copy_of_unnamed_zzz17y_fd21a8.png?W=400", category: ["minimal","abstract","aesthetic"], tags: ["minimal","mobile","sun","waves"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773537/copy_of_unnamed_ibzazr_07e95b.png?W=400", category: ["minimal","abstract","aesthetic"], tags: ["minimal","mobile","mountain","sun"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773496/copy_of_unnamed_sikumn_e6b4e9.png?W=400", category: ["minimal"], tags: ["space","mobile","simple","pink"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773465/copy_of_unnamed_u3wsms_c62f3d.png?W=400", category: ["minimal","abstract"], tags: ["minimal","mobile","waves","green"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773420/copy_of_unnamed_o0htlk_5a44b4.png?W=400", category: ["minimal","nature"], tags: ["minimal","mobile","moon","night"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773391/copy_of_unnamed_jnpi6a_18ddef.png?W=400", category: ["minimal","abstract","nature"], tags: ["minimal","mobile","sand","desert"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773349/copy_of_unnamed_mrdvx6_88f162.png?W=400", category: ["minimal","abstract","aesthetic","nature"], tags: ["minimal","mobile","dark","forest"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773317/copy_of_unnamed_ndc4sg_5cd1f8.png?W=400", category: ["minimal","nature"], tags: ["minimal","mobile","gradient","ocean"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773282/copy_of_unnamed_vrhcue_fe1d22.png?W=400", category: ["minimal","abstract"], tags: ["minimal","mobile","mountain","simple"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773249/copy_of_unnamed_cbpsqg_cf45d8.png?W=400", category: ["minimal","nature","aesthetic"], tags: ["minimal","mobile","foggy","mountains"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773215/copy_of_unnamed_is5ory_f62ea4.png?W=400", category: ["minimal","nature","dark"], tags: ["minimal","mobile","night","house"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773167/copy_of_unnamed_ug4oym_7c9a9b.png?W=400", category: ["minimal","abstract","aesthetic"], tags: ["minimal","mobile","color","waves"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773128/copy_of_unnamed_f3cydd_98ada0.png?W=400", category: ["minimal","nature","aesthetic"], tags: ["minimal","mobile","mountains","lake"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776773015/copy_of_unnamed_wlhq2k_670c37.png?W=400", category: ["minimal","nature"], tags: ["minimal","mobile","mountains","sunset"]},
+
     // ===== horror =====
    
     {img: "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229?w=400", category: "horror", tags: ["horror","mobile"]},
