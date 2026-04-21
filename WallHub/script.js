@@ -7,6 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
   let sidePanel = document.getElementById("sidePanel");
   let currentCategory = "all";
   let liked = JSON.parse(localStorage.getItem("likes")) || {};
+  let indexMap = new Map();
+
+wallpapers.forEach((w, i) => {
+  indexMap.set(w.img, i);
+});
 
  menuBtn.onclick = () => {
   sidePanel.classList.toggle("active");
@@ -116,32 +121,8 @@ if (currentIndex >= currentData.length) {
 }
 
 // ===== FILTER =====
-function applyFilters() {
-  let value = searchInput.value.toLowerCase();
-  let sort = sortSelect.value;
-
-let data = getData();
-
-let filtered = data.filter(w => {
-  let matchCategory =
-    currentCategory === "all" || w.category.includes(currentCategory);
-
-  let matchSearch =
-    value === "" ||
-    w.tags.some(tag => tag.includes(value));
-
-  return matchCategory && matchSearch;
-});
-
-// 👇 FINAL SORT LOGIC
-if (sort === "old") {
-  filtered = [...filtered].reverse();
-} else if (sort === "new") {
-  // same order
-} else {
-  filtered = shuffleArray(filtered); // 👈 DEFAULT RANDOM
-  
-   function shuffleArray(arr) {
+// ===== SHUFFLE =====
+function shuffleArray(arr) {
   let shuffled = [...arr];
   for (let i = shuffled.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -149,9 +130,34 @@ if (sort === "old") {
   }
   return shuffled;
 }
+
+// ===== FILTER =====
+function applyFilters() {
+  let value = searchInput.value.toLowerCase();
+  let sort = sortSelect.value;
+
+  let data = getData();
+
+  let filtered = data.filter(w => {
+    let matchCategory =
+      currentCategory === "all" || w.category.includes(currentCategory);
+
+    let matchSearch =
+      value === "" ||
+      w.tags.some(tag => tag.includes(value));
+
+    return matchCategory && matchSearch;
+  });
+
+  // 👇 IMPORTANT FIX
+  if (sort === "new") {
+  filtered.sort((a, b) => indexMap.get(b.img) - indexMap.get(a.img));
+} else if (sort === "old") {
+  filtered.sort((a, b) => indexMap.get(a.img) - indexMap.get(b.img));
+} else {
+  filtered = shuffleArray([...filtered]);
 }
 
-  
   showWallpapers(filtered, true);
 }
 
@@ -237,9 +243,11 @@ window.closePopup = function () {
   popup.style.display = "none";
 };
 
-// INIT (sabse last me)
-showWallpapers(getData(), true);
- document.querySelector(".categories button").classList.add("active");
+// ===== INIT =====
+currentCategory = "all";
+
+document.querySelector(".categories button").classList.add("active");
+
 applyFilters();
  }); // DOMContentLoaded close
 
