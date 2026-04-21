@@ -516,8 +516,8 @@ body {
 
   /* POPUP IMAGE */
   #popupImg {
-    max-width: 95vw;
-    max-height: 60vh;
+    max-width: 85vw;
+    max-height: 50vh;
   }
 
 }
