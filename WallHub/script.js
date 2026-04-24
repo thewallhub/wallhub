@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const likes = JSON.parse(localStorage.getItem("likes")) || {};
   const indexMap = new Map();
   wallpapers.forEach((w, i) => indexMap.set(w.img, i));
+  const wallpaperIdMap = new Map();
+  const wallpaperByIdMap = new Map();
 
   const state = {
     category: "all",
@@ -84,6 +86,94 @@ document.addEventListener("DOMContentLoaded", () => {
     return originalImg.includes("?") ? `${originalImg}&w=400` : `${originalImg}?w=400`;
   }
 
+  function sanitizeSlug(value) {
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[%\s_]+/g, "-")
+      .replace(/[^a-z0-9-]/g, "-")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function getBaseSlugFromImageUrl(imageUrl) {
+    const withoutQuery = String(imageUrl || "").split("?")[0];
+    const fileName = withoutQuery.split("/").pop() || "wallpaper";
+    const withoutExt = fileName.replace(/\.[a-z0-9]+$/i, "");
+    return sanitizeSlug(withoutExt) || "wallpaper";
+  }
+
+  function buildWallpaperIdMaps() {
+    const buckets = new Map();
+
+    wallpapers.forEach((wallpaper) => {
+      if (!wallpaper?.img) return;
+      const base = `wp-${getBaseSlugFromImageUrl(wallpaper.img)}`;
+      if (!buckets.has(base)) {
+        buckets.set(base, []);
+      }
+      buckets.get(base).push(wallpaper);
+    });
+
+    buckets.forEach((items, base) => {
+      const sortedItems = [...items].sort((a, b) => String(a.img).localeCompare(String(b.img)));
+      sortedItems.forEach((wallpaper, index) => {
+        const id = index === 0 ? base : `${base}-${index + 1}`;
+        wallpaperIdMap.set(wallpaper.img, id);
+        wallpaperByIdMap.set(id, wallpaper);
+      });
+    });
+  }
+
+  function getWallpaperId(wallpaper) {
+    return wallpaperIdMap.get(wallpaper?.img) || "";
+  }
+
+  function updateHashFromWallpaper(wallpaper) {
+    const wallpaperId = getWallpaperId(wallpaper);
+    if (!wallpaperId) return;
+    if (window.location.hash !== `#${wallpaperId}`) {
+      history.replaceState(null, "", `#${wallpaperId}`);
+    }
+  }
+
+  function ensureCardVisibleById(targetId) {
+    if (!targetId) return null;
+    let targetCard = container.querySelector(`#${CSS.escape(targetId)}`);
+    while (!targetCard && state.currentIndex < state.filtered.length) {
+      renderChunk(false);
+      targetCard = container.querySelector(`#${CSS.escape(targetId)}`);
+    }
+    return targetCard;
+  }
+
+  function applyDeviceFromWallpaper(wallpaper) {
+    const wallpaperDevice = getDeviceFromWallpaper(wallpaper);
+    state.device = wallpaperDevice;
+    document.body.classList.remove("mobile", "desktop");
+    document.body.classList.add(wallpaperDevice);
+    deviceToggle.querySelectorAll(".device-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.device === wallpaperDevice);
+    });
+  }
+
+  function openFromHash() {
+    const targetId = window.location.hash.replace(/^#/, "");
+    if (!targetId) return;
+
+    const targetWallpaper = wallpaperByIdMap.get(targetId);
+    if (!targetWallpaper) return;
+
+    applyDeviceFromWallpaper(targetWallpaper);
+    applyFilters();
+
+    const targetCard = ensureCardVisibleById(targetId);
+    if (targetCard) {
+      targetCard.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    openPopup(targetWallpaper);
+  }
+
   function renderChunk(reset = true) {
     if (reset) {
       container.innerHTML = "";
@@ -99,6 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = "wallpaper";
       card.dataset.category = toCardCategory(wallpaper);
       card.dataset.device = getDeviceFromWallpaper(wallpaper);
+      card.id = getWallpaperId(wallpaper);
 
       const img = document.createElement("img");
       img.src = getGridImageUrl(originalImg);
@@ -169,6 +260,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const categories = (wallpaper.category || []).map((c) => normalizeCategory(c));
     popupCategory.textContent = `Category: ${categories.join(", ") || "all"}`;
+    updateHashFromWallpaper(wallpaper);
 
     downloadBtn.onclick = async (event) => {
       event.preventDefault();
@@ -268,6 +360,7 @@ document.addEventListener("DOMContentLoaded", () => {
     categoriesBar.querySelectorAll("button").forEach((btn) => btn.classList.remove("active"));
     button.classList.add("active");
     applyFilters();
+    
   });
 
   deviceToggle.addEventListener("click", (event) => {
@@ -302,7 +395,9 @@ document.addEventListener("DOMContentLoaded", () => {
     history.scrollRestoration = "manual";
   }
 
+  buildWallpaperIdMaps();
   applyFilters();
+  openFromHash();
 });
 
 
