@@ -7,64 +7,59 @@
   <meta name="google-site-verification" content="mSBGUSB4JXAdtmmff9DmwoLAR6HvnqPTBohqfcI9J4A" />
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile-layer.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6748886660799619"
      crossorigin="anonymous"></script>
 </head>
-<body>
-
-  <!-- HEADER (ALL IN ONE) -->
+<body class="mobile">
   <div class="header">
+    <div class="header-top">
+      <div id="menuBtn" class="menu-icon" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">
+        <span></span>
+      </div>
+      <div class="logo-box">
+        <img src="assets/logo.png" class="logo" alt="WallHub Logo">
+        <h1>WallHub</h1>
+      </div>
 
-  <!-- TOP ROW -->
-  <div class="logo-box">
-  <img src="assets/logo.png" class="logo">
-  <h1>WallHub</h1>
- </div>
-
-  <!-- SEARCH -->
-  <div class="top-bar">
-
-  <!-- LEFT FILTER -->
-  <select id="sortSelect">
-  <option value="" selected hidden>Sort</option>
-  <option value="new">New</option>
-  <option value="old">Old</option>
-</select>
-
-  <!-- SEARCH -->
-  <input type="text" id="search" placeholder="Search wallpapers...">
-
-  <!-- RIGHT DEVICE -->
-  <select id="deviceSelect">
-    <option value="mobile">📱 Mobile</option>
-    <option value="pc">💻 Laptop</option>
-  </select>
-
-</div>
-
-    <!-- CATEGORIES -->
-    <div class="categories">
-      <button onclick="filterCategory('all', event)">All</button>
-      <button onclick="filterCategory('nature', event)">Nature</button>
-      <button onclick="filterCategory('city', event)">City</button>
-      <button onclick="filterCategory('dark', event)">Dark</button>
-      <button onclick="filterCategory('anime', event)">Anime</button>
-      <button onclick="filterCategory('cars', event)">Cars</button>
-      <button onclick="filterCategory('space', event)">Space</button>
-      <button onclick="filterCategory('minimal', event)">Minimal</button>
-      <button onclick="filterCategory('gaming', event)">Gaming</button>
-      <button onclick="filterCategory('horror', event)">Horror</button>
-      <button onclick="filterCategory('abstract', event)">Abstract</button>
-      <button onclick="filterCategory('tech', event)">Tech</button>
-      <button onclick="filterCategory('animals', event)">Animals</button>
-      <button onclick="filterCategory('sports', event)">Sports</button>
-      <button onclick="filterCategory('quotes', event)">Quotes</button>
-      <button onclick="filterCategory('superheroes', event)">Superheroes</button>
-      <button onclick="filterCategory('bikes', event)">Bikes</button>
-      <button onclick="filterCategory('aesthetic', event)">Aesthetic</button>
+      <div class="top-controls">
+        <div class="device-toggle" id="deviceToggle">
+          <button type="button" class="device-btn active" data-device="mobile">Mobile</button>
+          <button type="button" class="device-btn" data-device="desktop">Laptop</button>
+        </div>
+      </div>
     </div>
 
+    <div class="search-row">
+      <select id="sortSelect" aria-label="Sort wallpapers">
+        <option value="">Sort: Recommended</option>
+        <option value="new">Newest</option>
+        <option value="old">Oldest</option>
+      </select>
+      <input type="text" id="search" placeholder="Search wallpapers..." aria-label="Search wallpapers">
+    </div>
+
+    <div class="categories" id="categoriesBar">
+      <button type="button" class="active" data-category="all">All</button>
+      <button type="button" data-category="nature">Nature</button>
+      <button type="button" data-category="city">City</button>
+      <button type="button" data-category="dark">Dark</button>
+      <button type="button" data-category="anime">Anime</button>
+      <button type="button" data-category="cars">Cars</button>
+      <button type="button" data-category="space">Space</button>
+      <button type="button" data-category="minimal">Minimal</button>
+      <button type="button" data-category="gaming">Gaming</button>
+      <button type="button" data-category="horror">Horror</button>
+      <button type="button" data-category="abstract">Abstract</button>
+      <button type="button" data-category="tech">Tech</button>
+      <button type="button" data-category="animals">Animals</button>
+      <button type="button" data-category="sports">Sports</button>
+      <button type="button" data-category="quotes">Quotes</button>
+      <button type="button" data-category="superhero">Superhero</button>
+      <button type="button" data-category="bikes">Bikes</button>
+      <button type="button" data-category="aesthetic">Aesthetic</button>
+    </div>
   </div>
 
   <!-- GRID -->
@@ -74,28 +69,29 @@
   <button id="loadMoreBtn">Load More</button>
 
   <!-- POPUP -->
-     <div id="popup" class="popup">
-
-  <span onclick="closePopup()" class="closeBtn">❌</span>
-
-  <div class="popup-img-box">
-    <img id="popupImg">
-    <span id="popupHeart">♡</span>
+  <div id="popup" class="popup">
+    <span onclick="closePopup()" class="closeBtn">✕</span>
+    <div class="popup-inner">
+      <div class="popup-img-box">
+        <img id="popupImg" alt="Wallpaper preview">
+        <span id="popupHeart">♡</span>
+      </div>
+      <div class="popup-meta">
+        <p id="popupResolution">Resolution: --</p>
+        <p id="popupCategory">Category: --</p>
+      </div>
+      <button id="downloadBtn">Download</button>
+    </div>
   </div>
 
-  <button id="downloadBtn">Download</button>
-
-</div>
-
   <!-- MENU -->
-  <div id="menuBtn">☰</div>
-
-  <div id="sidePanel">
+  <div id="sidePanel" class="menu">
 
   <a href="pages/about.html">About</a>
   <a href="pages/contact.html">Contact</a>
   <a href="pages/privacy.html">Privacy Policy</a>
   <a href="pages/terms.html">Terms & Conditions</a>
+  <a href="pages/copyright.html">Copyright</a>
 
   <div class="social">
     <a href="https://www.instagram.com/realwallhub/" target="_blank"> Instagram</a>
@@ -105,7 +101,7 @@
  
  <script src="data/wallpapers.js"></script>
 <script src="script.js"></script>
-<script src="script.js"></script>
+<script src="mobile-mode.js"></script>
  
 </body>
 </html>
