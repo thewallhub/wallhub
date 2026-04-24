@@ -59,7 +59,42 @@
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693127/copy_of_0097597d-f600-4c6a-b47f-d9ac33ed0e58_xn9sem_1e038d.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","girl"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776692711/copy_of_11d32f60-dc57-4a08-8f90-bdb588cee559_yf5nym_d40c28.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776691903/copy_of_5acd5a64-4854-4c4c-8625-35bdc9e92b6f_ttqeii_4179c1.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cute","girl"]},
-
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021480/lucid-origin_Eren_Yeager_in_Attack_Titan_form_roaring_under_a_stormy_sky_lightning_flashing_b-0_jeqdnb.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021496/lucid-origin_Eren_Yeager_standing_alone_in_a_burning_battlefield_flames_reflecting_on_his_fac-0_abmmy3.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021499/lucid-origin_Eren_Yeager_walking_forward_in_slow_motion_wind_blowing_his_hair_sunset_sky_with-0_quyv62.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","eren","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021514/lucid-origin_Eren_Yeager_half_human_half_titan_transformation_glowing_energy_splitting_his_fa-0_qhgyhx.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021519/lucid-origin_Eren_Yeager_sitting_on_broken_ruins_red_sky_background_calm_but_dark_expression_-0_veynjd.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021524/lucid-origin_Eren_Yeager_in_futuristic_anime_style_glowing_aura_around_him_neon_blue_energy_l-0_rtamue.jpg?W=400", category: ["anime"], tags: ["anime","mobile"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021529/lucid-origin_Eren_Yeager_from_Attack_on_Titan_walking_forward_in_slow_motion_wearing_Survey_C-0_q3iwef.jpg?W=400", category: ["anime"], tags: ["anime","mobile","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777021541/lucid-origin_Eren_Yeager_a_fiercely_determined_titan-shifter_is_depicted_in_a_striking_image_-0_fuexe0.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022155/lucid-origin_In_the_awe-inspiring_world_of_Attack_on_Titan_a_dynamically_detailed_Levi_Ackerm-0_ah7ztb.jpg?W=400", category: ["anime"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022161/lucid-origin_Levi_Ackerman_attacking_titan_face_close_range_dual_blades_intense_motion_blood_-0_s9m9i4.jpg?W=400", category: ["anime"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022206/lucid-origin_Levi_Ackerman_standing_on_titan_corpse_holding_blades_blood_stains_on_uniform_de-0_ninhkb.jpg?W=400", category: ["anime"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022214/lucid-origin_Levi_Ackerman_in_snowy_battlefield_Survey_Corps_uniform_ODM_gear_visible_cold_wi-0_vysrsb.jpg?W=400", category: ["anime"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022220/lucid-origin_Levi_Ackerman_in_forest_battle_slicing_through_titans_leaves_flying_sunlight_ray-0_mtwk7w.jpg?W=400", category: ["anime"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022227/lucid-origin_Levi_Ackerman_from_Attack_on_Titan_wearing_full_Survey_Corps_uniform_with_ODM_ge-0_reyinq.jpg?W=400", category: ["anime"], tags: ["anime","mobile","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022357/lucid-origin_levi_Ackerman_sitting_on_rooftop_edge_city_lights_blurred_below_calm_silent_vibe-0_msv3dw.jpg?W=400", category: ["anime"], tags: ["anime","mobile","sad","alone"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022379/download_ad1ye6.jpg?W=400", category: ["anime"], tags: ["anime","mobile","cute","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022382/lucid-origin_Levi_Ackerman_standing_in_rain_with_blood_stains_on_face_cold_expression_blue_to-0_gvvlrk.jpg?W=400", category: ["anime","dark"], tags: ["anime","mobile","Levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022806/lucid-origin_Mikasa_Ackerman_a_fierce_warrior_from_Attack_on_Titan_with_dark_hair_and_piercin-0_nkdsub.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022811/lucid-origin_Mikasa_Ackerman_a_fierce_and_determined_warrior_with_dark_hair_and_piercing_eyes-0_rlqvic.jpg?W=400", category: ["anime"], tags: ["anime","mobile","girl"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022813/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_sitting_under_a_tree_in_open_field_red_scar-0_xcxdle.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022836/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_silhouette_standing_on_rooftop_red_scarf_gl-0_tzxmqm.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022842/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_in_intense_battle_with_titan_dual_blades_re-0_yxvsbb.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022851/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_standing_in_snowy_battlefield_red_scarf_con-0_jyzpxl.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022862/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_standing_in_heavy_rain_red_scarf_wet_and_fl-0_ncshl9.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777022865/lucid-origin_Mikasa_Ackerman_from_Attack_on_Titan_using_ODM_gear_mid-air_swinging_between_bui-0_nxzc7h.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023012/lucid-origin_Mikasa_Ackerman_a_fierce_yet_cute_warrior_from_Attack_on_Titan_with_dark_hair_an-0_weip46.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023390/download_eklvpq.jpg?W=400", category: ["anime"], tags: ["anime","mobile","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023417/download_kgqd9h.jpg?W=400", category: ["anime"], tags: ["anime","mobile","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023493/download_x0zrn2.jpg?W=400", category: ["anime"], tags: ["anime","mobile","titan","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023490/download_jpqpri.jpg?W=400", category: ["anime"], tags: ["anime","mobile","levi","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023488/download_yeujsg.jpg?W=400", category: ["anime"], tags: ["anime","mobile","erwin","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023465/download_du2mwn.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023459/download_evzm7b.jpg?W=400", category: ["anime"], tags: ["anime","mobile","mikasa","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023451/download_oo9fvp.jpg?W=400", category: ["anime"], tags: ["anime","mobile","armin","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023442/download_xihe7p.jpg?W=400", category: ["anime"], tags: ["anime","mobile","eren","aot"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1777023431/download_xumm1e.jpg?W=400", category: ["anime"], tags: ["anime","mobile","levi","aot"]},
 
 
     // ===== nature =====
@@ -202,7 +237,7 @@
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975787/lucid-origin_Superman_hovering_above_city_skyline_at_sunset_warm_orange_and_blue_tones_cape_f-0_wqslc3.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","powerfull"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975904/lucid-origin_Superman_flying_at_super_speed_across_sky_light_streaks_behind_him_motion_blur_d-0_fiobmx.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","flying"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776977129/copy_of_ideogram-v30_deadpool_sitting_casually_on_a_rooftop_looking_directly_at_the_camera_pointing_a-0_fkcmzw_7bb26d.png?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","logo"]},
-    
+
     // ===== quotes =====
     
     {img: "https://images.unsplash.com/photo-1568849676085-51415703900f?w=400", category: ["quotes"], tags: ["quotes","mobile"]},
