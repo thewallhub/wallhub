@@ -13,7 +13,7 @@
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689059/7e318c78-99eb-437a-bdd2-8491a66b2d6a_yrveax.png?W=400", category: ["dark","horror","animal"], tags: ["dark","mobile","wolf","night"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689045/936ed724-d2f3-4afa-9f4a-c8295e29c7f6_uga5ht.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","angel","devil"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689005/f7724698-801f-44c1-9521-2fdeb40aee9a_ntmsx0.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","sea","monster"]},
-    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689001/38a2aa11-86cf-4a2d-9f1d-84611bc719fa_lz9uul.png?W=400", category: ["dark","car","city"], tags: ["dark","mobile","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776689001/38a2aa11-86cf-4a2d-9f1d-84611bc719fa_lz9uul.png?W=400", category: ["dark","cars","city"], tags: ["dark","mobile","cool"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688992/83d64277-7e18-467d-9f45-cf1347aaa79e_qygjzx.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","monster","devil"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688983/6191726f-f490-4549-87dd-a9614181d3ba_swkc2d.png?W=400", category: ["dark","tech"], tags: ["dark","mobile","hacker"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776688978/54a92efe-a02b-45c9-a23a-c4f8ceb32619_l26zwb.png?W=400", category: ["dark","horror"], tags: ["dark","mobile","night","dragon"]},
@@ -50,7 +50,7 @@
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668553/cd65def0-4bd8-4daf-a53e-5e41eff6dffc_wcchkl.png?w=400", category: ["anime"], tags: ["anime","mobile","cool"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668649/90fe2484-c731-4ccc-bd13-6688fbffcb1a_zbmh31.png?w=400", category: ["anime"], tags: ["anime","mobile","girl","sad","alone"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776668728/13cd5fca-8cf5-4970-9bfd-8a8970a32d24_fptaur.png?w=400", category: ["anime","horror"], tags: ["anime","mobile","demon"]},
-    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776669123/f70c636e-d205-4f5d-bd74-6a505884c05d_huqops.png?w=400", category: ["anime", "bike", "car", "city"], tags: ["anime","mobile","cool","handsome"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776669123/f70c636e-d205-4f5d-bd74-6a505884c05d_huqops.png?w=400", category: ["anime", "bikes", "cars", "city"], tags: ["anime","mobile","cool","handsome"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693622/copy_of_6e758f5b-e1bd-4977-970e-515c80fb19e9_ydjoey_e09ec0.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","dark"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693480/copy_of_684f83dd-25d9-445f-8834-c7f2a3d60b48_vobzvo_d2a6bb.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","girl"]},
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776693413/copy_of_9652b3d4-c1a9-4a1c-8b5b-05aa3fb335b9_iuunip_617b2f.jpg?W=400", category: ["anime","aesthetic"], tags: ["anime","mobile","cool","art"]},
@@ -78,12 +78,12 @@
  
     // ===== city =====
    
-    {img: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=400", category: "city", tags: ["city","mobile"]},
-    {img: "https://images.unsplash.com/photo-1529619768328-e37af76c6fe5?w=400", category: "city", tags: ["city","mobile"]},
+    {img: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=400", category: ["city"], tags: ["city","mobile"]},
+    {img: "https://images.unsplash.com/photo-1529619768328-e37af76c6fe5?w=400", category: ["city"], tags: ["city","mobile"]},
     // ===== gaming =====
     
-    {img: "https://images.unsplash.com/photo-1636922861058-ac8d49cb5147?w=400", category: "gaming", tags: ["gaming","mobile"]},
-    {img: "https://images.unsplash.com/photo-1631896928987-fce0d41e9b32?w=400", category: "gaming", tags: ["gaming","mobile"]},
+    {img: "https://images.unsplash.com/photo-1636922861058-ac8d49cb5147?w=400", category: ["gaming"], tags: ["gaming","mobile"]},
+    {img: "https://images.unsplash.com/photo-1631896928987-fce0d41e9b32?w=400", category: ["gaming"], tags: ["gaming","mobile"]},
     // ===== space =====
     
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776766670/copy_of_unnamed_rbqzuz_39ac51.png?W=400", category: ["space"], tags: ["space","mobile","blackhole","universe"]},
@@ -118,24 +118,24 @@
 
     // ===== horror =====
    
-    {img: "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229?w=400", category: "horror", tags: ["horror","mobile"]},
-    {img: "https://images.unsplash.com/photo-1574619151566-2884ae326856?w=400", category: "horror", tags: ["horror","mobile"]},
+    {img: "https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229?w=400", category: ["horror"], tags: ["horror","mobile"]},
+    {img: "https://images.unsplash.com/photo-1574619151566-2884ae326856?w=400", category: ["horror"], tags: ["horror","mobile"]},
     // ===== abstract =====
     
-    {img: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=400", category: "abstract", tags: ["abstract","mobile"]},
-    {img: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400", category: "abstract", tags: ["abstract","mobile"]},
+    {img: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?w=400", category: ["abstract"], tags: ["abstract","mobile"]},
+    {img: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400", category: ["abstract"], tags: ["abstract","mobile"]},
     // ===== tech =====
     
-    {img: "https://images.unsplash.com/photo-1549317336-206569e8475c?w=400", category: "tech", tags: ["tech","mobile"]},
-    {img: "https://images.unsplash.com/photo-1689443111070-2c1a1110fe82?w=400", category: "tech", tags: ["tech","mobile"]},
+    {img: "https://images.unsplash.com/photo-1549317336-206569e8475c?w=400", category: ["tech"], tags: ["tech","mobile"]},
+    {img: "https://images.unsplash.com/photo-1689443111070-2c1a1110fe82?w=400", category: ["tech"], tags: ["tech","mobile"]},
     // ===== animals =====
     
-    {img: "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=400", category: "animals", tags: ["animals","mobile"]},
-    {img: "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=400", category: "animals", tags: ["animals","mobile"]},
+    {img: "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=400", category: ["animals"], tags: ["animals","mobile"]},
+    {img: "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=400", category: ["animals"], tags: ["animals","mobile"]},
     // ===== sports =====
     
-    {img: "https://images.unsplash.com/photo-1565992441121-4367c2967103?w=400", category: "sports", tags: ["sports","mobile"]},
-    {img: "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=400", category: "sports", tags: ["sports","mobile"]},
+    {img: "https://images.unsplash.com/photo-1565992441121-4367c2967103?w=400", category: ["sports"], tags: ["sports","mobile"]},
+    {img: "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?w=400", category: ["sports"], tags: ["sports","mobile"]},
     // ===== cars =====
     
     {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/q_auto/f_auto/v1776720373/copy_of_93740b0c-cace-408e-9113-3d4add1cdc07_wu9v7r_a9bed6.jpg?W=400", category: ["cars","space"], tags: ["cars","mobile","racing","illusion"]},
@@ -163,99 +163,126 @@
     
    // ===== aesthetic =====
     
-     {img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400", category: "aesthetic", tags: ["aesthetic","mobile","nature"]},
-     {img: "https://images.unsplash.com/photo-1504681869696-d977211a5f4c?w=400", category: "aesthetic", tags: ["aesthetic","mobile","nature","ocean"]},
+     {img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400", category: ["aesthetic"], tags: ["aesthetic","mobile","nature"]},
+     {img: "https://images.unsplash.com/photo-1504681869696-d977211a5f4c?w=400", category: ["aesthetic"], tags: ["aesthetic","mobile","nature","ocean"]},
     
     // ===== bikes =====
 
-    {img: "https://images.unsplash.com/photo-1695878868476-ec1e08702935?w=400", category: "bikes", tags: ["bikes","mobile","dark"]},
-    {img: "https://images.unsplash.com/photo-1566891439633-e183f368493b?w=400", category: "bikes", tags: ["bikes","mobile","cool"]},
+    {img: "https://images.unsplash.com/photo-1695878868476-ec1e08702935?w=400", category: ["bikes"], tags: ["bikes","mobile","dark"]},
+    {img: "https://images.unsplash.com/photo-1566891439633-e183f368493b?w=400", category: ["bikes"], tags: ["bikes","mobile","cool"]},
     
     // ===== superheroes =====
     
-    {img: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=400", category: "superheroes", tags: ["superheroes","mobile","batman"]},
-    {img: "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?w=400", category: "superheroes", tags: ["superheroes","mobile","ronlox"]},
+    {img: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=400", category: ["superheroes"], tags: ["superheroes","mobile","batman"]},
+    {img: "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?w=400", category: ["superheroes"], tags: ["superheroes","mobile","ronlox"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776962169/lucid-origin_a_cinematic_photo_of_Spider-Man_surrounded_by_multiverse_portals_different_suit_-0_l94zdp.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","multiverse"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776962189/dc3ebc302b2d7b2a64d794ed912717cb_zygg97.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","night"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776962750/lucid-origin_Spider-Man_swinging_between_buildings_mid-air_motion_blur_dynamic_action_pose_su-0_d0oczb.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","web"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776962918/lucid-origin_Spider-Man_in_black_suit_standing_in_shadows_minimal_lighting_dark_alley_backgro-0_ep66mb.jpg?W=400", category: ["superheroes","dark"], tags: ["superheros","mobile","spiderman","black spiderman"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776963138/08d57b1186726809610f069c5c313bf4_eehxbk.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","fire"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776963859/lucid-origin_Spider-Man_casually_sitting_upside_down_on_web_relaxed_pose_sunset_sky_backgroun-0_darakz.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","web"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776963865/1b1083208c1e9fde0439119e3080c6a8_fafup5.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","alone"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964193/lucid-origin_Spider-Man_in_icy_environment_blue_glowing_suit_highlights_snow_particles_cold_c-0_t3urwf.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","spiderman","neon"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964309/lucid-origin_Iron_Man_flying_high_in_the_sky_with_jet_thrusters_blazing_clouds_breaking_apart-0_u4ratu.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","ironman","flying"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964338/cf3a41004106b0cd34302fb5ed55ab85_h80us8.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","ironman","arc"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964375/ideogram-v3.0_Iron_Man_inside_a_futuristic_lab_with_holographic_interfaces_blue_and_orange_glo-0_ensc62.png?W=400", category: ["superheroes"], tags: ["superheros","mobile","ironman","high tech"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964529/lucid-origin_Iron_Man_battle_damaged_armor_scratches_and_sparks_smoke_in_background_glowing_e-0_u9xnvr.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","ironman","fight"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964672/lucid-origin_Captain_America_running_forward_into_battle_shield_raised_dust_and_debris_flying-0_ygm974.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","captain america","running"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964723/lucid-origin_Captain_America_standing_in_dark_environment_low_light_shadows_gritty_texture_da-0_jc27g2.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","captain america","super soldier"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964734/89a85d384008f015e1338a4b9fcfe05b_py2vkl.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","captain america","vintage hero"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776964962/copy_of_seedream-45_captain_america_in_snowy_battlefield_shield_covered_with_frost_cold_blue_lightin-0_kz1ikz_821f07.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","captain america","ice"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776974182/59c40210-7783-4c12-81d1-cb7ecc14ab14-0_z3fzxk.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","batman","dark hero"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776974940/lucid-origin_a_cinematic_photo_of_Batman_gliding_aggressively_between_skyscrapers_at_night_ca-0_ktjt4k.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","batman","flying"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975363/ideogram-v3.0_Deadpool_sitting_casually_on_a_rooftop_looking_directly_at_the_camera_pointing_a-0_fkcmzw.png?W=400", category: ["superheroes"], tags: ["superheros","mobile","deadpool","funny"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975472/lucid-origin_Deadpool_in_intense_combat_mid-air_dual_katanas_slicing_through_enemies_sparks_a-0_rzb8df.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","deadpool","action"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975542/lucid-origin_Deadpool_walking_through_flames_with_explosion_behind_relaxed_attitude_weapons_i-0_xhp50k.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","deadpool","action"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975668/lucid-origin_Deadpool_in_neon_comic_art_style_glowing_outlines_graffiti_background_vibrant_pi-0_j9geze.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","deadpool","cool"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776977129/copy_of_ideogram-v30_deadpool_sitting_casually_on_a_rooftop_looking_directly_at_the_camera_pointing_a-0_fkcmzw_7bb26d.png?W=400", category: ["superheroes"], tags: ["superheros","mobile","deadpool","funny"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975739/lucid-origin_Superman_floating_high_above_clouds_absorbing_sunlight_energy_golden_rays_glowin-0_l3lsfu.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","sky"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975787/lucid-origin_Superman_hovering_above_city_skyline_at_sunset_warm_orange_and_blue_tones_cape_f-0_wqslc3.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","powerfull"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776975904/lucid-origin_Superman_flying_at_super_speed_across_sky_light_streaks_behind_him_motion_blur_d-0_fiobmx.jpg?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","flying"]},
+    {img: "https://res.cloudinary.com/dh2g8tj2h/image/upload/v1776977129/copy_of_ideogram-v30_deadpool_sitting_casually_on_a_rooftop_looking_directly_at_the_camera_pointing_a-0_fkcmzw_7bb26d.png?W=400", category: ["superheroes"], tags: ["superheros","mobile","superman","logo"]},
     
     // ===== quotes =====
     
-    {img: "https://images.unsplash.com/photo-1568849676085-51415703900f?w=400", category: "quotes", tags: ["quotes","mobile"]},
-    {img: "https://images.unsplash.com/photo-1522120691812-dcdfb625f397?w=400", category: "quotes", tags: ["quotes","mobile"]},
+    {img: "https://images.unsplash.com/photo-1568849676085-51415703900f?w=400", category: ["quotes"], tags: ["quotes","mobile"]},
+    {img: "https://images.unsplash.com/photo-1522120691812-dcdfb625f397?w=400", category: ["quotes"], tags: ["quotes","mobile"]},
 
 
    // ===== PC WALLPAPERS =====
 
     // ===== dark =====
     
-    {img: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=400", category: "dark", tags: ["dark","pc"]},
-    {img: "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=400", category: "dark", tags: ["dark","pc"]},
+    {img: "https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=400", category: ["dark"], tags: ["dark","pc"]},
+    {img: "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=400", category: ["dark"], tags: ["dark","pc"]},
 
     // ===== anime =====
     
-    {img: "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=400", category: "anime", tags: ["anime","pc"]},
-    {img: "https://images.unsplash.com/photo-1560972550-aba3456b5564?w=400", category: "anime", tags: ["anime","pc"]},
+    {img: "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?w=400", category: ["anime"], tags: ["anime","pc"]},
+    {img: "https://images.unsplash.com/photo-1560972550-aba3456b5564?w=400", category: ["anime"], tags: ["anime","pc"]},
     // ===== nature =====
     
-    {img: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400", category: "nature", tags: ["nature","pc"]},
-    {img: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400", category: "nature", tags: ["nature","pc"]},
+    {img: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400", category: ["nature"], tags: ["nature","pc"]},
+    {img: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400", category: ["nature"], tags: ["nature","pc"]},
     // ===== city =====
     
-    {img: "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400", category: "city", tags: ["city","pc"]},
-    {img: "https://images.unsplash.com/photo-1444084316824-dc26d6657664?w=400", category: "city", tags: ["city","pc"]},
+    {img: "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=400", category: ["city"], tags: ["city","pc"]},
+    {img: "https://images.unsplash.com/photo-1444084316824-dc26d6657664?w=400", category: ["city"], tags: ["city","pc"]},
     // ===== gaming =====
     
-    {img: "https://images.unsplash.com/photo-1614285457768-646f65ca8548?w=400", category: "gaming", tags: ["gaming","pc"]},
-    {img: "https://images.unsplash.com/photo-1626218174358-7769486c4b79?w=400", category: "gaming", tags: ["gaming","pc"]},
+    {img: "https://images.unsplash.com/photo-1614285457768-646f65ca8548?w=400", category: ["gaming"], tags: ["gaming","pc"]},
+    {img: "https://images.unsplash.com/photo-1626218174358-7769486c4b79?w=400", category: ["gaming"], tags: ["gaming","pc"]},
     // ===== space =====
     
-    {img: "https://images.unsplash.com/photo-1566345984367-fa2ba5cedc17?w=400", category: "space", tags: ["space","pc"]},
-    {img: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400", category: "space", tags: ["space","pc"]},
+    {img: "https://images.unsplash.com/photo-1566345984367-fa2ba5cedc17?w=400", category: ["space"], tags: ["space","pc"]},
+    {img: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400", category: ["space"], tags: ["space","pc"]},
     // ===== minimal =====
     
-    {img: "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=400", category: "minimal", tags: ["minimal","pc"]},
-    {img: "https://images.unsplash.com/photo-1632059368252-be6d65abc4e2?w=400", category: "minimal", tags: ["minimal","pc"]},
+    {img: "https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?w=400", category: ["minimal"], tags: ["minimal","pc"]},
+    {img: "https://images.unsplash.com/photo-1632059368252-be6d65abc4e2?w=400", category: ["minimal"], tags: ["minimal","pc"]},
     // ===== horror =====
     
-    {img: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=400", category: "horror", tags: ["horror","pc"]},
-    {img: "https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?w=400", category: "horror", tags: ["horror","pc"]},
+    {img: "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=400", category: ["horror"], tags: ["horror","pc"]},
+    {img: "https://images.unsplash.com/photo-1487174244970-cd18784bb4a4?w=400", category: ["horror"], tags: ["horror","pc"]},
     // ===== abstract =====
     
-    {img: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400", category: "abstract", tags: ["abstract","pc"]},
-    {img: "https://images.unsplash.com/photo-1556139930-c23fa4a4f934?w=400", category: "abstract", tags: ["abstract","pc"]},
+    {img: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400", category: ["abstract"], tags: ["abstract","pc"]},
+    {img: "https://images.unsplash.com/photo-1556139930-c23fa4a4f934?w=400", category: ["abstract"], tags: ["abstract","pc"]},
     // ===== tech =====
     
-    {img: "https://images.unsplash.com/photo-1663895064411-fff0ab8a9797?w=400", category: "tech", tags: ["tech","pc"]},
-    {img: "https://images.unsplash.com/photo-1689443111130-6e9c7dfd8f9e?w=400", category: "tech", tags: ["tech","pc"]},
+    {img: "https://images.unsplash.com/photo-1663895064411-fff0ab8a9797?w=400", category: ["tech"], tags: ["tech","pc"]},
+    {img: "https://images.unsplash.com/photo-1689443111130-6e9c7dfd8f9e?w=400", category: ["tech"], tags: ["tech","pc"]},
     // ===== animals =====
     
-    {img: "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?w=400", category: "animals", tags: ["animals","pc"]},
-    {img: "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=400", category: "animals", tags: ["animals","pc"]}, 
+    {img: "https://images.unsplash.com/photo-1497752531616-c3afd9760a11?w=400", category: ["animals"], tags: ["animals","pc"]},
+    {img: "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=400", category: ["animals"], tags: ["animals","pc"]}, 
     // ===== sports =====
     
-    {img: "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=400", category: "sports", tags: ["sports","pc"]},
-    {img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400", category: "sports", tags: ["sports","pc"]},
+    {img: "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=400", category: ["sports"], tags: ["sports","pc"]},
+    {img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400", category: ["sports"], tags: ["sports","pc"]},
     // ===== cars =====
     
-    {img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400", category: "cars", tags: ["cars","pc"]},
-    {img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400", category: "cars", tags: ["cars","pc"]},
+    {img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400", category: ["cars"], tags: ["cars","pc"]},
+    {img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400", category: ["cars"], tags: ["cars","pc"]},
     
      // ===== aesthetic =====
     
-     {img: "https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?w=400", category: "aesthetic", tags: ["aesthetic","pc","dark"]},
-     {img: "https://images.unsplash.com/photo-1491466424936-e304919aada7?w=400", category: "aesthetic", tags: ["aesthetic","pc","dark"]},
+     {img: "https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?w=400", category: ["aesthetic"], tags: ["aesthetic","pc","dark"]},
+     {img: "https://images.unsplash.com/photo-1491466424936-e304919aada7?w=400", category: ["aesthetic"], tags: ["aesthetic","pc","dark"]},
     
     // ===== bikes =====
 
-     {img: "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?w=400", category: "bikes", tags: ["bikes","pc"]},
-     {img: "https://images.unsplash.com/photo-1598209279122-8541213a0387?w=400", category: "bikes", tags: ["bikes","pc"]},
+     {img: "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?w=400", category: ["bikes"], tags: ["bikes","pc"]},
+     {img: "https://images.unsplash.com/photo-1598209279122-8541213a0387?w=400", category: ["bikes"], tags: ["bikes","pc"]},
 
     // ===== superheroes =====
     
-    {img: "https://images.unsplash.com/photo-1513384312027-9fa69a360337?w=400", category: "superheroes", tags: ["superheroes","pc"]},
-    {img: "https://images.unsplash.com/photo-1657558045738-21507cf53606?w=400", category: "superheroes", tags: ["superheroes","pc"]},
+    {img: "https://images.unsplash.com/photo-1513384312027-9fa69a360337?w=400", category: ["superheroes"], tags: ["superheroes","pc"]},
+    {img: "https://images.unsplash.com/photo-1657558045738-21507cf53606?w=400", category: ["superheroes"], tags: ["superheroes","pc"]},
     
     // ===== quotes =====
     
-    {img: "https://images.unsplash.com/photo-1552508744-1696d4464960?w=400", category: "quotes", tags: ["quotes","pc"]},
-    {img: "https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?w=400", category: "quotes", tags: ["quotes","pc"]}
+    {img: "https://images.unsplash.com/photo-1552508744-1696d4464960?w=400", category: ["quotes"], tags: ["quotes","pc"]},
+    {img: "https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?w=400", category: ["quotes"], tags: ["quotes","pc"]},
 
   ];
