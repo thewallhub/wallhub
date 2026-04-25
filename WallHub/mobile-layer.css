@@ -9,6 +9,9 @@
   }
 
   body.is-mobile .header {
+    position: sticky;
+    top: 0;
+    z-index: 9500;
     padding: 12px 12px 10px;
     border-radius: 14px;
   }
@@ -181,5 +184,16 @@
     left: 10px;
     width: 22px;
     height: 16px;
+  }
+
+  body.is-mobile .popup {
+    padding-top: calc(env(safe-area-inset-top, 0px) + 48px);
+  }
+
+  body.is-mobile .closeBtn {
+    position: fixed;
+    top: calc(env(safe-area-inset-top, 0px) + 10px);
+    right: 10px;
+    z-index: 21000;
   }
 }
