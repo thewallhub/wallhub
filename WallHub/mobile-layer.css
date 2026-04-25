@@ -188,6 +188,15 @@
 
   body.is-mobile .popup {
     padding-top: calc(env(safe-area-inset-top, 0px) + 48px);
+    padding-bottom: 14px;
+  }
+
+  body.is-mobile .popup-inner {
+    margin-top: 14px;
+  }
+
+  body.is-mobile #popupImg {
+    max-height: 64vh;
   }
 
   body.is-mobile .closeBtn {
