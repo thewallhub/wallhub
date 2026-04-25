@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let isCategoryIndicatorBound = false;
   let favoriteIds = new Set();
   let toastHideTimer = null;
+  let lockedScrollY = 0;
 
   const indexMap = new Map();
   wallpapers.forEach((w, i) => indexMap.set(w.img, i));
@@ -103,6 +104,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function getResolutionText() {
     return state.device === "mobile" ? "1080 x 1920 (Mobile)" : "1920 x 1080 (Laptop)";
+  }
+
+  function lockBackgroundScroll() {
+    lockedScrollY = window.scrollY || window.pageYOffset || 0;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${lockedScrollY}px`;
+    document.body.style.left = "0";
+    document.body.style.right = "0";
+    document.body.style.width = "100%";
+  }
+
+  function unlockBackgroundScroll() {
+    document.body.style.position = "";
+    document.body.style.top = "";
+    document.body.style.left = "";
+    document.body.style.right = "";
+    document.body.style.width = "";
+    const htmlEl = document.documentElement;
+    const previousScrollBehavior = htmlEl.style.scrollBehavior;
+    htmlEl.style.scrollBehavior = "auto";
+    window.scrollTo(0, lockedScrollY);
+    requestAnimationFrame(() => {
+      htmlEl.style.scrollBehavior = previousScrollBehavior;
+    });
   }
 
   function updateInfiniteScrollUI() {
@@ -657,6 +682,7 @@ document.addEventListener("DOMContentLoaded", () => {
     state.activeWallpaper = wallpaper;
     popup.style.display = "flex";
     document.body.classList.add("popup-open");
+    lockBackgroundScroll();
     popupImg.style.filter = "blur(10px)";
     popupImg.onload = () => {
       popupImg.style.filter = "blur(0)";
@@ -712,6 +738,7 @@ document.addEventListener("DOMContentLoaded", () => {
     clearUrlHash();
     popup.style.display = "none";
     document.body.classList.remove("popup-open");
+    unlockBackgroundScroll();
     state.activeWallpaper = null;
   };
 
