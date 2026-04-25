@@ -6,5 +6,6 @@ function applyMobileMode() {
   }
 }
 
+applyMobileMode();
 window.addEventListener("load", applyMobileMode);
 window.addEventListener("resize", applyMobileMode);
