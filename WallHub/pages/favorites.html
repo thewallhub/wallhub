@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favorites - WallHub</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile-layer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6748886660799619"
+     crossorigin="anonymous"></script>
+</head>
+<body class="mobile favorites-page loading">
+  <div id="menuBtn" class="menu-icon" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">
+    <span></span>
+  </div>
+
+  <div class="header">
+    <div class="header-top">
+      <div class="logo-box">
+        <img src="assets/logo.png" class="logo" alt="WallHub Logo">
+        <h1>WallHub</h1>
+      </div>
+
+      <div class="top-controls">
+        <div class="device-toggle" id="deviceToggle">
+          <button type="button" class="device-btn active" data-device="mobile">Mobile</button>
+          <button type="button" class="device-btn" data-device="desktop">Laptop</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-row">
+      <select id="sortSelect" aria-label="Sort wallpapers">
+        <option value="">Sort: Recommended</option>
+        <option value="new">Newest</option>
+        <option value="old">Oldest</option>
+      </select>
+      <input type="text" id="search" placeholder="Search favorites..." aria-label="Search favorites">
+    </div>
+
+    <div class="categories" id="categoriesBar">
+      <button type="button" class="active" data-category="all">All</button>
+      <button type="button" data-category="nature">Nature</button>
+      <button type="button" data-category="city">City</button>
+      <button type="button" data-category="dark">Dark</button>
+      <button type="button" data-category="anime">Anime</button>
+      <button type="button" data-category="cars">Cars</button>
+      <button type="button" data-category="space">Space</button>
+      <button type="button" data-category="minimal">Minimal</button>
+      <button type="button" data-category="gaming">Gaming</button>
+      <button type="button" data-category="horror">Horror</button>
+      <button type="button" data-category="abstract">Abstract</button>
+      <button type="button" data-category="tech">Tech</button>
+      <button type="button" data-category="animals">Animals</button>
+      <button type="button" data-category="sports">Sports</button>
+      <button type="button" data-category="quotes">Quotes</button>
+      <button type="button" data-category="superhero">Superhero</button>
+      <button type="button" data-category="bikes">Bikes</button>
+      <button type="button" data-category="aesthetic">Aesthetic</button>
+    </div>
+  </div>
+
+  <div id="favoritesEmptyState" class="favorites-empty" hidden>
+    <div class="favorites-empty-inner">
+      <p class="favorites-empty-title">No favorites yet</p>
+      <p class="favorites-empty-sub">Start liking wallpapers ❤️</p>
+      <a href="index.html" class="favorites-empty-link">Browse wallpapers</a>
+    </div>
+  </div>
+
+  <div id="wallpapers" class="grid"></div>
+
+  <div id="popup" class="popup">
+    <span onclick="closePopup()" class="closeBtn">✕</span>
+    <div class="popup-inner">
+      <div class="popup-img-box">
+        <img id="popupImg" alt="Wallpaper preview">
+        <span id="popupHeart">♡</span>
+      </div>
+      <div class="popup-meta">
+        <p id="popupResolution">Resolution: --</p>
+        <p id="popupCategory">Category: --</p>
+      </div>
+      <div class="popup-actions">
+        <button type="button" id="shareBtn" class="share-btn" aria-label="Share wallpaper">Share</button>
+        <button type="button" id="downloadBtn">Download</button>
+      </div>
+    </div>
+
+    <div id="shareSheet" class="share-sheet" aria-hidden="true">
+      <div class="share-sheet__backdrop" data-share-close tabindex="-1"></div>
+      <div class="share-sheet__panel" role="dialog" aria-modal="true" aria-labelledby="shareSheetTitle">
+        <div class="share-sheet__handle" aria-hidden="true"></div>
+        <h2 id="shareSheetTitle" class="share-sheet__title">Share</h2>
+        <div class="share-sheet__grid">
+          <button type="button" class="share-sheet__opt" data-share="whatsapp">WhatsApp</button>
+          <button type="button" class="share-sheet__opt" data-share="telegram">Telegram</button>
+          <button type="button" class="share-sheet__opt" data-share="twitter">X (Twitter)</button>
+          <button type="button" class="share-sheet__opt" data-share="facebook">Facebook</button>
+          <button type="button" class="share-sheet__opt share-sheet__opt--wide" data-share="copy">Copy link</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sidePanel" class="menu">
+
+  <a href="index.html">Home</a>
+  <a href="pages/about.html">About</a>
+  <a href="pages/contact.html">Contact</a>
+  <a href="pages/privacy.html">Privacy Policy</a>
+  <a href="pages/terms.html">Terms & Conditions</a>
+  <a href="pages/copyright.html">Copyright</a>
+  <a href="favorites.html" aria-current="page">Favorites</a>
+
+  <div class="social">
+    <a href="https://www.instagram.com/realwallhub/" target="_blank"> Instagram</a>
+  </div>
+
+</div>
+
+ <script src="data/wallpapers.js"></script>
+<script src="script.js"></script>
+<script src="mobile-mode.js"></script>
+
+</body>
+</html>
