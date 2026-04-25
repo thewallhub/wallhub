@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (/favorites\.html$/i.test(window.location.pathname)) {
             return;
           }
-          window.location.assign("favorites.html");
+          window.location.assign("pages/favorites.html");
         }
       });
     }
