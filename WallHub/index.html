@@ -12,12 +12,13 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6748886660799619"
      crossorigin="anonymous"></script>
 </head>
-<body class="mobile">
+<body class="mobile loading">
+  <div id="menuBtn" class="menu-icon" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">
+    <span></span>
+  </div>
+
   <div class="header">
     <div class="header-top">
-      <div id="menuBtn" class="menu-icon" aria-label="Toggle menu" role="button" tabindex="0" aria-expanded="false">
-        <span></span>
-      </div>
       <div class="logo-box">
         <img src="assets/logo.png" class="logo" alt="WallHub Logo">
         <h1>WallHub</h1>
@@ -65,9 +66,6 @@
   <!-- GRID -->
   <div id="wallpapers" class="grid"></div>
 
-  <!-- LOAD MORE -->
-  <button id="loadMoreBtn">Load More</button>
-
   <!-- POPUP -->
   <div id="popup" class="popup">
     <span onclick="closePopup()" class="closeBtn">✕</span>
@@ -80,7 +78,25 @@
         <p id="popupResolution">Resolution: --</p>
         <p id="popupCategory">Category: --</p>
       </div>
-      <button id="downloadBtn">Download</button>
+      <div class="popup-actions">
+        <button type="button" id="shareBtn" class="share-btn" aria-label="Share wallpaper">Share</button>
+        <button type="button" id="downloadBtn">Download</button>
+      </div>
+    </div>
+
+    <div id="shareSheet" class="share-sheet" aria-hidden="true">
+      <div class="share-sheet__backdrop" data-share-close tabindex="-1"></div>
+      <div class="share-sheet__panel" role="dialog" aria-modal="true" aria-labelledby="shareSheetTitle">
+        <div class="share-sheet__handle" aria-hidden="true"></div>
+        <h2 id="shareSheetTitle" class="share-sheet__title">Share</h2>
+        <div class="share-sheet__grid">
+          <button type="button" class="share-sheet__opt" data-share="whatsapp">WhatsApp</button>
+          <button type="button" class="share-sheet__opt" data-share="telegram">Telegram</button>
+          <button type="button" class="share-sheet__opt" data-share="twitter">X (Twitter)</button>
+          <button type="button" class="share-sheet__opt" data-share="facebook">Facebook</button>
+          <button type="button" class="share-sheet__opt share-sheet__opt--wide" data-share="copy">Copy link</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -92,6 +108,7 @@
   <a href="pages/privacy.html">Privacy Policy</a>
   <a href="pages/terms.html">Terms & Conditions</a>
   <a href="pages/copyright.html">Copyright</a>
+  <a href="favorites.html">Favorites</a>
 
   <div class="social">
     <a href="https://www.instagram.com/realwallhub/" target="_blank"> Instagram</a>
