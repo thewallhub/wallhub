@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
   body.is-mobile {
-    padding: 10px;
+    padding: 12px;
   }
 
   body.is-mobile * {
@@ -8,68 +8,80 @@
     box-sizing: border-box;
   }
 
-  body.is-mobile .top-bar,
-  body.is-mobile .controls,
-  body.is-mobile .header-top,
-  body.is-mobile .top-controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   body.is-mobile .header {
-    padding: 10px;
+    padding: 12px 12px 10px;
+    border-radius: 14px;
   }
 
   body.is-mobile .header-top {
     position: relative;
-    min-height: auto;
-    padding: 0 64px;
-    justify-content: flex-start;
-    padding-left: 10px;
+    min-height: 44px;
+    padding: 0 0 0 44px;
   }
 
   body.is-mobile .logo-box {
     position: absolute;
-    left: 40%;
-    transform: translateX(-48%);
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    left: 45%;
+    transform: translateX(-46%);
+    max-width: calc(100% - 140px);
+    display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 8px;
+    text-align: center;
+    pointer-events: none;
   }
 
   body.is-mobile .logo {
-    margin-left: 5px;
+    width: 34px;
+    height: 34px;
+    margin-left: 0;
+  }
+
+  body.is-mobile .logo-box h1 {
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
   }
 
   body.is-mobile .top-controls {
     position: absolute;
     right: 0;
+    top: 0;
     width: auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   body.is-mobile .device-toggle {
-    width: auto;
+    width: 124px;
+    padding: 2px;
+    gap: 2px;
     justify-content: center;
-    transform: scale(0.9);
-    margin: 10px auto;
+    transform: none;
+    margin: 0;
   }
 
   body.is-mobile .device-btn {
-    flex: 0 0 auto;
-    min-width: auto;
-    padding: 8px 14px;
-    font-size: 12px;
-    border-radius: 6px;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 32px;
+    padding: 6px 8px;
+    font-size: 11px;
+    border-radius: 999px;
   }
 
   body.is-mobile .search-row {
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  body.is-mobile #sortSelect,
+  body.is-mobile #search {
+    min-height: 42px;
+    padding: 9px 12px;
   }
 
   body.is-mobile .categories {
@@ -77,27 +89,58 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     gap: 8px;
-    padding: 10px 0;
+    margin-top: 10px;
+    padding: 6px 0 14px;
     scrollbar-width: none;
+    position: relative;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
   }
 
   body.is-mobile .categories::-webkit-scrollbar {
     display: none;
   }
 
+  body.is-mobile .categories::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 25px;
+    pointer-events: none;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.35), transparent);
+    z-index: 2;
+  }
+
+  body.is-mobile .scroll-indicator {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 0.7;
+    pointer-events: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    z-index: 3;
+  }
+
   body.is-mobile .category-btn,
   body.is-mobile .categories button {
     flex: 0 0 auto;
     min-width: auto;
-    padding: 8px 14px;
-    font-size: 13px;
+    min-height: 34px;
+    padding: 7px 12px;
+    font-size: 12px;
     white-space: nowrap;
-    border-radius: 20px;
+    border-radius: 999px;
   }
 
   body.is-mobile.mobile #wallpapers {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+    gap: 10px;
   }
 
   body.is-mobile.desktop #wallpapers {
@@ -105,15 +148,38 @@
     gap: 12px;
   }
 
+  body.is-mobile #wallpapers {
+    margin-top: 12px;
+    padding: 0 2px;
+  }
+
+  body.is-mobile .wallpaper {
+    padding: 6px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
   body.is-mobile .wallpaper img {
     border-radius: 10px;
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
+  }
+
+  body.is-mobile .heart {
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
   }
 
   body.is-mobile #menuBtn {
     top: 10px;
     left: 10px;
+    width: 22px;
+    height: 16px;
   }
 }
